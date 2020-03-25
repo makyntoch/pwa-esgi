@@ -77,8 +77,8 @@ function initCard(card, data) {
   image.alt = data.content.title;
 
   const title = card.querySelector('main h1');
-  title.innerHTML = data.content.title;
+  title.innerText = data.content.title;
 
   const description = card.querySelector('main p');
-  description.innerHTML = data.content.description;
+  description.innerText = data.content.description;
 }
